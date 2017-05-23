@@ -1,7 +1,7 @@
 # yqlConnector v0.5
 
-Make YQL Requests in Python 3. 
-Errorhandling is currently missing
+*  Make YQL Requests in Python 3. 
+*  Errorhandling is currently missing
 
 ## Example: Weatherforcast for Location
 
