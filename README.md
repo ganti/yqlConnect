@@ -1,9 +1,6 @@
 # yqlConnector v0.5
 
-*  Make YQL Requests in Python 3. 
-*  Errorhandling is currently missing
-
-## Example: Weatherforcast for Location
+make Yahoo Query Language (YQL) Requests in Python 3
 
 ```
 #!/usr/bin/python3
@@ -15,6 +12,10 @@ qry = 'select * from weather.forecast where woeid in (select woeid from geo.plac
 res = conn.request(yql=qry);
 pprint(res)
 ```
+
+## History
+
+v0.5  first version, sophisticated errorhandling is missing
 
 ## License
 
